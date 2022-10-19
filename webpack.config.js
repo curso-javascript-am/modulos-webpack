@@ -1,11 +1,31 @@
+const HtmlWebPackPlugin = require('html-webpack-plugin')
+
 module.exports = {
     mode: "development",
 
+    output: {
+        clean: true
+    },
+
     module: {
-        rules: []
+        rules: [
+            {
+                test: /\.html$/,
+                loader: 'html-loader',
+                options: {
+                    sources: false
+                }
+            }
+        ]
     },
 
     optimization: {},
 
-    plugins: [],
+    plugins: [
+        new HtmlWebPackPlugin({
+            title: 'Mi Webpack App',
+            filename: 'index.html',
+            template: './src/index.html'
+        })
+    ],
 }
