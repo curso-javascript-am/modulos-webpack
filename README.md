@@ -6,6 +6,7 @@
 * Crear archivo webpack.config.js
 * Configurar archivo webpack.config.js
 * Webpack Dev Server
+* Importar estilos de manera dinámica
 
 ## Dependencias
 * Webpack
@@ -23,4 +24,12 @@ npm install --save-dev html-loader
 * Webpack Dev Server
 ```
 npm install webpack-dev-server --save-dev-
+```
+* CSS Loader
+```
+npm install -D css-loader
+```
+* Style-loader
+```
+npm install style-loader
 ```
