@@ -5,6 +5,7 @@
 * Instalación y Configuración de Webpack
 * Crear archivo webpack.config.js
 * Configurar archivo webpack.config.js
+* Webpack Dev Server
 
 ## Dependencias
 * Webpack
@@ -18,4 +19,8 @@ npm install --save-dev html-webpack-plugin
 * HTML Loader
 ```
 npm install --save-dev html-loader
+```
+* Webpack Dev Server
+```
+npm install webpack-dev-server --save-dev-
 ```
