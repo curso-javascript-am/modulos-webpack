@@ -7,6 +7,7 @@
 * Configurar archivo webpack.config.js
 * Webpack Dev Server
 * Importar estilos de manera dinámica
+* Crear archivo CSS global
 
 ## Dependencias
 * Webpack
@@ -32,4 +33,8 @@ npm install -D css-loader
 * Style-loader
 ```
 npm install style-loader
+```
+* Mini CSS Extract Plugin
+```
+npm install -D mini-css-extract-plugin
 ```
