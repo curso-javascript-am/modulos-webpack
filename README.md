@@ -8,6 +8,7 @@
 * Webpack Dev Server
 * Importar estilos de manera dinámica
 * Crear archivo CSS global
+* Manejo de imágenes
 
 ## Dependencias
 * Webpack
@@ -37,4 +38,8 @@ npm install style-loader
 * Mini CSS Extract Plugin
 ```
 npm install -D mini-css-extract-plugin
+```
+* File Loader
+```
+npm install -D file-loader
 ```

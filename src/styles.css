@@ -2,3 +2,8 @@ html, body {
     margin: 0;
     background-color: honeydew;
 }
+
+img{
+    width: 20rem;
+    height: auto;
+}
