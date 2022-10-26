@@ -1,5 +1,5 @@
 import '../css/componentes.css';
-import webpackLogo from '../assets/img/webpack-logo.png';
+//import webpackLogo from '../assets/img/webpack-logo.png';
 
 export const saludar = ( nombre ) =>{
     console.log('Creando Etiqueta h1');
@@ -9,7 +9,7 @@ export const saludar = ( nombre ) =>{
     document.body.append( h1 );
 
     // IMG
-    const img = document.createElement('img');
+    /*const img = document.createElement('img');
     img.src = webpackLogo;
-    document.body.append(img);
+    document.body.append(img);*/
 }

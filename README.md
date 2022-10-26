@@ -43,3 +43,7 @@ npm install -D mini-css-extract-plugin
 ```
 npm install -D file-loader
 ```
+* Copy Webpack Plugin
+```
+npm install -D copy-webpack-plugin
+```

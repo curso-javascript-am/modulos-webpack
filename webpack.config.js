@@ -1,5 +1,6 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 
 module.exports = {
     mode: "development",
@@ -20,7 +21,7 @@ module.exports = {
             {
                 test: /\.css$/,
                 exclude: /styles.css$/,
-                use: ['style-loader','css-loader']
+                use: ['style-loader', 'css-loader']
             },
             {
                 test: /styles.css$/,
@@ -42,10 +43,16 @@ module.exports = {
             filename: 'index.html',
             template: './src/index.html'
         }),
-        
+
         new MiniCssExtractPlugin({
             filename: '[name].[fullhash].css',
             ignoreOrder: false
+        }),
+
+        new CopyPlugin({
+            patterns: [
+                { from: 'src/assets/', to: 'assets/' }
+            ]
         })
     ],
 }
