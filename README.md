@@ -9,6 +9,9 @@
 * Importar estilos de manera dinámica
 * Crear archivo CSS global
 * Manejo de imágenes
+* Copiar imágenes (copy plugin)
+* Webpack - Modo producción
+
 
 ## Dependencias
 * Webpack
@@ -46,4 +49,12 @@ npm install -D file-loader
 * Copy Webpack Plugin
 ```
 npm install -D copy-webpack-plugin
+```
+* CSS Minimizer
+```
+npm install -D css-minimizer-webpack-plugin
+```
+* Terser Webpack Plugin
+```
+npm install -D terser-webpack-plugin
 ```
