@@ -11,6 +11,7 @@
 * Manejo de imágenes
 * Copiar imágenes (copy plugin)
 * Webpack - Modo producción
+* Uso de Babel
 
 
 ## Dependencias
@@ -57,4 +58,9 @@ npm install -D css-minimizer-webpack-plugin
 * Terser Webpack Plugin
 ```
 npm install -D terser-webpack-plugin
+```
+* Babel (traduce el estándar moderno de js para navegadores más antiguos)
+```
+npm install --save-dev babel-loader @babel/core
+npm install @babel/preset-env --save-dev
 ```
